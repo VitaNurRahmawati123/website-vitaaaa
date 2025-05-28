@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome My Project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-br from-purple-800 to-purple-900 min-h-screen overflow-x-hidden">
+  <div id="loadingScreen" aria-label="Loading animasi mawar">
+    <dotlottie-player src="https://lottie.host/bb93da94-8af6-4dca-8506-ebb108bb29bf/1mO8dog4aY.lottie"
+      background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+    <h1 class="text-3xl md:text-3xl font-bold mb-4 leading-tight">Welcome To My <br><span>Portfolio Website</span></h1>
+  </div>
+
+  <div id="mainContent">
+    <!-- Navbar -->
+    <div id="Home">
+      <nav
+        class="w-full flex items-center justify-between px-8 py-4 bg-purple-700 text-white fixed top-0 left-0 z-50 shadow-md">
+        <div class="flex items-center space-x-2">
+          <img src="taa.jpg" alt="Logo" class="w-10 h-10 rounded-full">
+          <span class="font-bold text-xl">vitaa</span>
+        </div>
+        <div class="flex space-x-8 text-lg font-semibold ml-24">
+          <a href="#Home" class="hover:text-pink-300 transition">Home</a>
+          <a href="#About" class="hover:text-pink-300 transition">About</a>
+          <a href="#Skills" class="hover:text-pink-300 transition">Skills</a>
+          <a href="#Gallery" class="hover:text-pink-300 transition">project</a>
+          <a href="#Testimonials" class="hover:text-pink-300 transition">Testimonials</a>
+          <a href="#Contact" class="hover:text-pink-300 transition">Contact</a>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="flex flex-col md:flex-row items-center justify-center mt-0 gap-12 pt-20 px-8 relative">
+        <div class="text-center md:text-left">
+          <h1 class="text-white text-8xl md:text-8xl font-bold mb-4 leading-tight">
+            <span class="inline-block text-white transition-transform duration-300 word-hover">Welcome</span><br>
+            <span class="inline-block transition-transform duration-300 word-hover text-pink-400">My Portfolio</span>
+          </h1>
+          <p class="text-gray-300 text-xl">Website Developer and Software Engineer.</p>
+        </div>
+
+        <dotlottie-player src="https://lottie.host/1a0235a3-fcb3-4e7a-9322-efe42bea2959/qUaHXobtDf.lottie"
+          background="transparent" speed="1" style="width: 500px; height: 500px" loop autoplay></dotlottie-player>
+      </section>
+    </div>
+
+    <!-- About Section -->
+    <section id="About" class="flex flex-col md:flex-row mt-10 items-center justify-center gap-10 px-8 py-16"
+      data-aos="fade-up">
+      <div class="w-72 h-96 overflow-hidden rounded-2xl shadow-lg">
+        <img src="mee.png" alt="Profile Photo" class="object-cover w-full h-full img-hover" />
+      </div>
+
+      <div class="max-w-lg text-white">
+        <h2 class="text-4xl font-bold mb-4">About <span class="text-pink-400">Me</span></h2>
+        <p class="text-gray-300 mb-6 text-3xl text-justify">
+          I'm Vita Nur Rahmawati, a website developer and software engineer with experience in both frontend and backend
+          development.
+          I enjoy taking on new challenges and am always committed to delivering the best results in every project I
+          work on.
+        </p>
+        <a href="about.html">
+          <button
+            class="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-semibold shadow-lg hover:scale-110 transition transform duration-300">
+            See in more Detail
+          </button>
+        </a>
+      </div>
+    </section>
+    <br>
+    <br>
+    <section id="Skills" class="w-full max-w-3xl text-center mx-auto space-y-12 py-16">
+      <!-- Title -->
+      <h2 class="text-4xl font-bold text-white">
+        My <span class="text-pink-400">Skills</span>
+      </h2>
+
+      <!-- Skills -->
+      <div class="space-y-10">
+        <!-- Skill 1 -->
+        <div class="space-y-3">
+          <div class="flex justify-between text-white font-semibold px-2">
+            <span>HTML</span>
+            <span>90%</span>
+          </div>
+          <div class="w-full bg-purple-600 rounded-full h-4 overflow-hidden">
+            <div class="bg-gradient-to-r from-pink-400 to-purple-400 h-4 rounded-full" style="--target-width: 90%;">
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="space-y-3">
+          <div class="flex justify-between text-white font-semibold px-2">
+            <span>CSS</span>
+            <span>70%</span>
+          </div>
+          <div class="w-full bg-purple-600 rounded-full h-4 overflow-hidden">
+            <div class="bg-gradient-to-r from-pink-400 to-purple-400 h-4 rounded-full" style="--target-width: 70%;">
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="space-y-3">
+          <div class="flex justify-between text-white font-semibold px-2">
+            <span>JavaScript</span>
+            <span>40%</span>
+          </div>
+          <div class="w-full bg-purple-600 rounded-full h-4 overflow-hidden">
+            <div class="bg-gradient-to-r from-pink-400 to-purple-400 h-4 rounded-full" style="--target-width: 40%;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Gallery" class="w-full max-w-6xl mx-auto items-center mt-40">
+      <!-- Title -->
+      <h2 class="text-4xl font-bold text-center text-white mb-10">
+        My Project
+      </h2>
+
+      <!-- Project Container -->
+      <div
+        class="flex space-x-6 overflow-x-auto scrollbar-thin scrollbar-thumb-purple-500 scrollbar-track-purple-300 py-5 px-2">
+
+        <!-- Project Item 1 -->
+        <div
+          class="min-w-[250px] bg-purple-700 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition duration-500">
+          <img src="project 1.png" alt="Gallery 1"
+            class="w-full h-40 object-cover hover:scale-110 transition-transform duration-500">
+          <div class="p-4 text-white">
+            <p class="mb-4">I created this project to introduce the history of the islands.</p>
+            <a href="proyekkk/websitttttttt.html">
+              <button
+                class="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-semibold shadow-lg hover:scale-110 transition-transform duration-300">
+                See Detail
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project Item 2 -->
+        <div
+          class="min-w-[250px] bg-purple-700 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition duration-500">
+          <img src="project 2.png" alt="Gallery 2"
+            class="w-full h-40 object-cover hover:scale-110 transition-transform duration-500">
+          <div class="p-4 text-white">
+            <p class="mb-4">A travel website to share experiences and destinations.</p>
+            <a href="PPLG TGS 2/index2.html">
+              <button
+                class="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-semibold shadow-lg hover:scale-110 transition-transform duration-300">
+                See Detail
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project Item 3 -->
+        <div
+          class="min-w-[250px] bg-purple-700 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition duration-500">
+          <img src="project 3.png" alt="Gallery 3"
+            class="w-full h-40 object-cover hover:scale-110 transition-transform duration-500">
+          <div class="p-4 text-white">
+            <p class="mb-4">E-Commerce platform for easy shopping experience.</p>
+            <a href="bosstrep.TGS 2/index.html">
+              <button
+                class="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-semibold shadow-lg hover:scale-110 transition-transform duration-300">
+                See Detail
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project Item 4 -->
+        <div
+          class="min-w-[250px] bg-purple-700 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition duration-500">
+          <img src="project 4.png" alt="Gallery 4"
+            class="w-full h-40 object-cover hover:scale-110 transition-transform duration-500">
+          <div class="p-4 text-white">
+            <p class="mb-4">Health clinic website for online consultations.</p>
+            <a href="bootstrep.TGS3/index.html">
+              <button
+                class="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-semibold shadow-lg hover:scale-110 transition-transform duration-300">
+                See Detail
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project Item 5 -->
+        <div
+          class="min-w-[250px] bg-purple-700 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition duration-500">
+          <img src="projct 5.png" alt="Gallery 5"
+            class="w-full h-40 object-cover hover:scale-110 transition-transform duration-500">
+          <div class="p-4 text-white">
+            <p class="mb-4">Landing page promoting a music album release.</p>
+            <a href="tgs4/index.html.html">
+              <button
+                class="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-semibold shadow-lg hover:scale-110 transition-transform duration-300">
+                See Detail
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="min-w-[250px] bg-purple-700 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition duration-500">
+          <img src="Screenshot 2025-05-22 204851.png" alt="Gallery 5"
+            class="w-full h-40 object-cover hover:scale-110 transition-transform duration-500">
+          <div class="p-4 text-white">
+            <p class="mb-4">Landing page promoting a music album release.</p>
+            <a href="Febuari Semester 2/index.html">
+              <button
+                class="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-semibold shadow-lg hover:scale-110 transition-transform duration-300">
+                See Detail
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <!-- Testimonials Section -->
+    <section id="Testimonials" class="w-full max-w-4xl mx-auto py-20 px-4 text-black mt-40" x-data="testimonialApp()">
+
+      <div class="max-w-2xl mx-auto px-4 py-12">
+        <!-- Judul -->
+        <h2 class="text-3xl font-bold text-center text-white mb-6">Testimonials</h2>
+
+        <!-- Kotak daftar testimonial dengan scroll -->
+        <div id="testimonial-list"
+          class="space-y-4 bg-gray-100 p-4 rounded-lg mb-6 max-h-80 overflow-y-auto scrollbar-thin scrollbar-thumb-purple-400">
+          <!-- Testimonial akan masuk di sini -->
+        </div>
+
+        <!-- Tombol tambah -->
+        <div class="flex justify-center">
+          <button
+            class="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-semibold shadow-lg hover:scale-110 transition transform duration-300">
+            plus
+          </button>
+        </div>
+
+        <!-- Formulir -->
+        <form id="testimonial-form" class="space-y-4 mt-6 hidden mt-32">
+          <input type="text" id="name" placeholder="Name" required
+            class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400" />
+          <textarea id="comment" placeholder="comment" required
+            class="w-full border border-gray-300 rounded-md px-4 py-2 h-24 focus:outline-none focus:ring-2 focus:ring-purple-400"></textarea>
+          <input type="number" id="rating" placeholder="Rating (1-5)" min="1" max="5" required
+            class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400" />
+          <button type="submit"
+            class="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-semibold shadow-lg hover:scale-110 transition transform duration-300">
+            Send
+          </button>
+        </form>
+      </div>
+    </section>
+    <br>
+    <section id="Contact"
+      class="bg-gradient-to-br from-purple-700 to-purple-500 text-white py-12 px-4 rounded-2xl shadow-lg max-w-5xl mx-auto mt-10 mt-40">
+      <h2 class="text-4xl font-bold text-left mb-10">Contact</h2>
+      <div class="flex flex-col md:flex-row items-center justify-between gap-10">
+
+        <!-- Info Kontak -->
+        <div class="space-y-6 w-full md:w-1/2">
+          <div class="flex items-center space-x-4">
+            <i class="ph ph-map-pin text-3xl"></i>
+            <p class="text-lg font-medium">Jl. Lurek Manunggal</p>
+          </div>
+          <div class="flex items-center space-x-4">
+            <i class="ph ph-phone text-3xl"></i>
+            <p class="text-lg font-medium">+62 858-6716-5207</p>
+          </div>
+          <div class="flex items-center space-x-4">
+            <i class="ph ph-envelope-simple text-3xl"></i>
+            <p class="text-lg font-medium">Kontak@websitevitaa</p>
+          </div>
+
+          <hr class="border-white/30 my-4" />
+        </div>
+
+        <!-- Google Maps -->
+        <div class="w-full md:w-1/2">
+          <iframe src="https://www.google.com/maps?q=Jl.+Lurek+Manunggal&output=embed" width="100%" height="250"
+            class="rounded-xl border-2 border-white/30 shadow-lg" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+    </br>
+    </br>
+    <br>
+    <footer class="bg-gradient-to-r from-purple-800 via-purple-900 to-purple-950 text-white py-10">
+      <div class="container mx-auto px-6 sm:px-12 lg:px-24">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- About Section -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4">About Me</h3>
+            <p class="text-sm">I'm a passionate web developer who creates modern and interactive websites. Explore my
+              portfolio and get in touch!</p>
+          </div>
+          <!-- Quick Links Section -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+            <ul>
+              <li><a href="#Home" class="hover:text-indigo-300">Home</a></li>
+              <li><a href="#About" class="hover:text-indigo-300">About</a></li>
+              <li><a href="#Skills" class="hover:text-indigo-300">Skills</a></li>
+              <li><a href="#Gallery" class="hover:text-indigo-300">Gallery</a></li>
+              <li><a href="#Contact" class="hover:text-indigo-300">Contact</a></li>
+            </ul>
+          </div>
+          <!-- Social Media Section -->
+          <div>
+            <div class="flex flex-col items-center text-center">
+              <h3 class="text-xl font-semibold mb-4">Follow Me</h3>
+              <div class="flex flex-col space-y-4 items-center mt-4">
+                <a href="https://www.instagram.com/vitaa.taaa_?igsh=bThrbXc5bG92OHV6" title="Instagram" target="_blank"
+                  onclick="showNotification('Menuju Instagram')"
+                  class="hover:text-purple-500 transition-transform hover:scale-125 float-anim delay-100">
+                  <i class="ph ph-instagram-logo rotate-slow text-2xl"></i>
+                </a>
+                <a href="https://youtube.com/@vitarahmawati1900?si=5Uw6y8nyavRT1yuU" title="YouTube" target="_blank"
+                  onclick="showNotification('Buka YouTube')"
+                  class="hover:text-purple-500 transition-transform hover:scale-125 float-anim delay-200">
+                  <i class="ph ph-youtube-logo rotate-slow text-2xl"></i>
+                </a>
+                <a href="https://www.tiktok.com/@vitanwrh_?_t=ZS-8vxqdrdUkFE&_r=1" title="TikTok" target="_blank"
+                  onclick="showNotification('Menuju TikTok')"
+                  class="hover:text-purple-500 transition-transform hover:scale-125 float-anim delay-300">
+                  <i class="ph ph-tiktok-logo rotate-slow text-2xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Contact Section -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Contact</h3>
+            <p class="text-sm">Email: rahmawativita53@email.com</p>
+            <p class="text-sm">Phone: +62 895-4052-96977</p>
+          </div>
+        </div>
+        <div class="mt-10 border-t border-gray-700 pt-6 text-center">
+          <p class="text-sm">©VNR.All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
