@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>More About Me</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body
+  class="bg-gradient-to-b from-purple-800 to-purple-900 min-h-screen flex flex-col items-center justify-center text-center text-white p-8">
+  <nav
+    class="w-full flex items-center justify-between px-8 py-4 bg-purple-700 text-white fixed top-0 left-0 z-50 shadow-md">
+    <div class="flex items-center space-x-2">
+      <img src="taa.jpg" alt="Logo" class="w-10 h-10 rounded-full">
+      <span class="font-bold text-xl">vitaa</span>
+    </div>
+    <div class="flex space-x-8 text-lg font-semibold ml-24">
+      <a href="index.html" class="hover:text-pink-300 transition">Home</a>
+      <a href="#About" class="hover:text-pink-300 transition">About</a>
+      <a href="#Skills" class="hover:text-pink-300 transition">Skills</a>
+      <a href="#Gallery" class="hover:text-pink-300 transition">Project/a>
+      <a href="#Testimonials" class="hover:text-pink-300 transition">Testimonials</a>
+      <a href="#Contact" class="hover:text-pink-300 transition">Contact</a>
+    </div>
+  </nav>
+  </br>
+  </br>
+  <h1 class="text-5xl font-bold mb-6">More About <span class="text-pink-400">Me</span></h1>
+
+  <p class="max-w-3xl text-lg text-gray-300 mb-6">
+    Hi! I'm Vita Nur Rahmawati, passionate about creating beautiful and functional websites. I started diving into
+    website development because I believe that the internet is a powerful tool to share creativity, information, and
+    innovation.
+    <br><br>
+    My goal is to become a full-stack developer who not only understands the technical aspects but also the user
+    experience. I love building projects that help people and solve real-world problems.
+    <br><br>
+    This website is a representation of my journey, passion, and dedication to web development.
+  </p>
+
+  <a href="index.html">
+    <button
+      class="px-6 py-3 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full text-white font-semibold shadow-lg hover:scale-110 transition transform duration-300">
+      Back to Home
+    </button>
+  </a>
+  </br>
+  <footer class="bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-600 text-white py-10 w-full">
+    <div class="container mx-auto px-6 sm:px-12 lg:px-24">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- About Section -->
+        <div>
+          <h3 class="text-xl font-semibold mb-4">About Me</h3>
+          <p class="text-sm">I'm a passionate web developer who creates modern and interactive websites. Explore my
+            portfolio and get in touch!</p>
+        </div>
+        <!-- Quick Links Section -->
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+          <ul>
+            <li><a href="#home" class="hover:text-indigo-300">Home</a></li>
+            <li><a href="#about" class="hover:text-indigo-300">About</a></li>
+            <li><a href="#skills" class="hover:text-indigo-300">Skills</a></li>
+            <li><a href="#gallery" class="hover:text-indigo-300">Gallery</a></li>
+            <li><a href="#contact" class="hover:text-indigo-300">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Social Media Section -->
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Follow Me</h3>
+          <div class="flex space-x-6">
+            <a href="https://www.linkedin.com" target="_blank" class="hover:text-indigo-300">
+              <i class="fab fa-linkedin-in text-2xl"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="hover:text-indigo-300">
+              <i class="fab fa-github text-2xl"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="hover:text-indigo-300">
+              <i class="fab fa-twitter text-2xl"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="hover:text-indigo-300">
+              <i class="fab fa-instagram text-2xl"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Social Media Section -->
+        <div>
+          <div class="flex flex-col items-center text-center">
+            <h3 class="text-xl font-semibold mb-4">Follow Me</h3>
+            <div class="flex flex-col space-y-4 items-center mt-4">
+              <a href="https://www.instagram.com/vitaa.taaa_?igsh=bThrbXc5bG92OHV6" title="Instagram" target="_blank"
+                onclick="showNotification('Menuju Instagram')"
+                class="hover:text-purple-500 transition-transform hover:scale-125 float-anim delay-100">
+                <i class="ph ph-instagram-logo rotate-slow text-2xl"></i>
+              </a>
+              <a href="https://youtube.com/@vitarahmawati1900?si=5Uw6y8nyavRT1yuU" title="YouTube" target="_blank"
+                onclick="showNotification('Buka YouTube')"
+                class="hover:text-purple-500 transition-transform hover:scale-125 float-anim delay-200">
+                <i class="ph ph-youtube-logo rotate-slow text-2xl"></i>
+              </a>
+              <a href="https://www.tiktok.com/@vitanwrh_?_t=ZS-8vxqdrdUkFE&_r=1" title="TikTok" target="_blank"
+                onclick="showNotification('Menuju TikTok')"
+                class="hover:text-purple-500 transition-transform hover:scale-125 float-anim delay-300">
+                <i class="ph ph-tiktok-logo rotate-slow text-2xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Contact Section -->
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Contact</h3>
+          <p class="text-sm">Email: example@email.com</p>
+          <p class="text-sm">Phone: +123 456 7890</p>
+        </div>
+      </div>
+      <div class="mt-10 border-t border-gray-700 pt-6 text-center">
+        <p class="text-sm">©VNR.All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
